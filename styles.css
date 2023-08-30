@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+}
+.nav-menu {
+    color: white;
+    width: 300px;
+    height: 100vh;
+    background-color: #b80000;
+    padding: 20px;
+    z-index:2;
+}
+
+
+nav {
+margin: 40px 0;
+}
+
+i ,.nav-menu p {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav-menu p {
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    padding: 20px 100px;
+    width: calc(100vw - 300px);
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.329);
+    height: 170px;
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search-bar i {
+    margin: 0 20px;
+}
+
+.search-bar .search {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    height: 35px;
+    background-color: rgb(221, 221, 221);
+    width: 700px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-header img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-header img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.header-btn button {
+    cursor: pointer;
+    color: white;
+    background-color: #b80000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.gird {
+    padding: 40px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.gird h2 {
+    margin-bottom: 10px;
+}
+
+.project-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    font-size: 0.9rem;
+}
+.box {
+    width: 380px;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    border-left: 5px #b80000 solid;
+    background-color: #e6e6e6;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.box-btn {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.announcements {
+    width: 300px;
+    padding: 20px 30px;
+    background-color: #e6e6e6;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+.announcements p:not(:last-child) {
+    border-bottom: 1px #0000003a solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.announcements h3 {
+    padding-bottom: 10px;
+}
+
+.trending {
+    margin-top: 10px;
+}
